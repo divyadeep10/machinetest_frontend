@@ -1,7 +1,7 @@
 // client/src/services/auth.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/auth/'; // Ensure this matches your backend port
+const API_URL = 'https://machine-test-backend-eight.vercel.app/api/auth/'; // Ensure this matches your backend port
 
 const login = async (email, password) => {
   try {

@@ -2,7 +2,7 @@
 import axios from 'axios';
 import authService from './auth';
 
-const API_URL = 'http://localhost:5000/api/agents/';
+const API_URL = 'https://machine-test-backend-eight.vercel.app/api/agents/';
 
 const getAuthHeaders = () => {
   const user = authService.getCurrentUser();

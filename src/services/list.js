@@ -2,7 +2,7 @@
 import axios from 'axios';
 import authService from './auth.js'; // Ensure .js extension is handled by your build system or add it
 
-const API_URL = 'http://localhost:5000/api/lists/';
+const API_URL = 'https://machine-test-backend-eight.vercel.app/api/lists/';
 
 const getAuthHeaders = () => {
   const user = authService.getCurrentUser();
